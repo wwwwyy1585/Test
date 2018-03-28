@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.test.dao.TestDao" >
+
+    <select id="queryUser" resultType="com.test.model.User" >
+        SELECT u.username,u.userpass FROM t_user u
+    </select>
+    <insert id="addUser" >
+        INSERT INTO T_USER(username,userpass) VALUES (#{userName},#{userPass})
+    </insert>
+</mapper>
