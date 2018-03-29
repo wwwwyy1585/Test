@@ -9,9 +9,9 @@ import redis.clients.jedis.JedisCluster;
 
 /**
  * 自定义redisTemplate
- * @ClassName: XyyRedisTemplate
- * @author wangqinghua
- * @date 2017年7月24日 下午7:09:49
+ * @ClassName: RedisProperties
+ * @author  wangyang
+ * @date 2018年3月28日 下午5:29:19
  */
 @Component
 public class SxtxRedisTemplate {
