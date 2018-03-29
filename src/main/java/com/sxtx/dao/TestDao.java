@@ -1,7 +1,6 @@
-package com.test.dao;
+package com.sxtx.dao;
 
-import com.alibaba.fastjson.JSONObject;
-import com.test.model.User;
+import com.sxtx.model.User;
 
 import java.util.List;
 

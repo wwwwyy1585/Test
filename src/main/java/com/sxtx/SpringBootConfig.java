@@ -1,4 +1,4 @@
-package com.test;
+package com.sxtx;
 
     import org.apache.ibatis.session.SqlSessionFactory;
     import org.apache.log4j.Logger;
@@ -18,7 +18,7 @@ package com.test;
 
  **/
 @SpringBootApplication
-@MapperScan("com.test.dao")
+@MapperScan("com.sxtx.dao")
 public class SpringBootConfig {
     private static Logger logger = Logger.getLogger(SpringBootConfig.class);
 

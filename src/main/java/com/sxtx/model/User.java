@@ -1,4 +1,4 @@
-package com.test.model;
+package com.sxtx.model;
 
 public class User {
 

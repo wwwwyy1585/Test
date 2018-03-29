@@ -1,9 +1,8 @@
-package com.test.service.impl;
+package com.sxtx.service.impl;
 
-import com.alibaba.fastjson.JSONObject;
-import com.test.dao.TestDao;
-import com.test.model.User;
-import com.test.service.TestService;
+import com.sxtx.dao.TestDao;
+import com.sxtx.model.User;
+import com.sxtx.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

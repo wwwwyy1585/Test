@@ -1,4 +1,4 @@
-package com.test.redis;
+package com.sxtx.redis;
 
 import java.util.HashSet;
 import java.util.Set;

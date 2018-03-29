@@ -1,9 +1,8 @@
-package com.test.controller;
+package com.sxtx.controller;
 
-import com.alibaba.fastjson.JSONObject;
-import com.test.model.User;
-import com.test.redis.SxtxRedisTemplate;
-import com.test.service.TestService;
+import com.sxtx.model.User;
+import com.sxtx.redis.SxtxRedisTemplate;
+import com.sxtx.service.TestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -36,7 +35,7 @@ public class TestController {
     @RequestMapping("toshow")
     public String ddddd(){
 
-        return "test";
+        return "sxtx";
     }
 
     /**

@@ -1,4 +1,4 @@
-package com.test.redis;
+package com.sxtx.redis;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
