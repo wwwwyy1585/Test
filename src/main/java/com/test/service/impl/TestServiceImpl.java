@@ -22,13 +22,7 @@ public class TestServiceImpl implements TestService{
 
     @Override
     public int addUser(User users) {
-        int n = 0;
-        try {
-            n=testDao.addUser(users);
-            int a = 1/0;
-        }catch (Exception e){
-
-        }
+        int n=testDao.addUser(users);
         return n;
     }
 }
