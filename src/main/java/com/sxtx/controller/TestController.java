@@ -35,7 +35,7 @@ public class TestController {
     @RequestMapping("toshow")
     public String ddddd(){
 
-        return "sxtx";
+        return "test";
     }
 
     /**
