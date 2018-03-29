@@ -11,6 +11,6 @@ To change this template use File | Settings | File Templates.
     <title>Title</title>
 </head>
 <body>
-hello world!wwwwwwwwww
+欢迎来到思想天下！
 </body>
 </html>
