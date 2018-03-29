@@ -14,6 +14,7 @@
     <name>Test Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <!--单元测试-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -42,18 +43,19 @@
       <groupId>javax.servlet</groupId>
       <artifactId>jstl</artifactId>
     </dependency>
+    <!--redis-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-redis</artifactId>
       <version>1.3.8.RELEASE</version>
     </dependency>
 
-
         <!--支持使用 JDBC 访问数据库-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-jdbc</artifactId>
     </dependency>
+    <!--druid连接池-->
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>druid</artifactId>
