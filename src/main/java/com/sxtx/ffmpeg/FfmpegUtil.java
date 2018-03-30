@@ -59,7 +59,7 @@ public class FfmpegUtil {
     }
 
     private static boolean process(List command) throws FFmpegException{
-
+        int n = 0;
         try {
 
             if (null == command || command.size() ==0)
