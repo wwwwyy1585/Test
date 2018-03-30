@@ -12,7 +12,7 @@ public class ConvertVedio {
     }
 
     private static String getFfmpegPath(){
-        return "ffmpeg";
+        return "ffmpeg.exe";
     }
 
     private static String getOutputPath(String inputPath) {
