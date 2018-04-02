@@ -85,7 +85,7 @@ public class FfmpegUtil {
     private static List getFfmpegCommand(int type, String ffmpegPath, String oldfilepath, String outputPath)throws FFmpegException {
         List command = new ArrayList();
         if (type == 1) {
-            command.add(ffmpegPath +"\\ffmpeg");
+            command.add("F:\\ffmpeg\\ffmpeg-20180328-10d008f-win64-static\\bin\\ffmpeg.exe");
             command.add("-i");
             command.add(oldfilepath);
             command.add("-c:v");
@@ -102,7 +102,7 @@ public class FfmpegUtil {
             command.add("mpegts");
             command.add(outputPath);
         } else if(type==0){
-            command.add(ffmpegPath +"\\ffmpeg");
+            command.add("F:\\ffmpeg\\ffmpeg-20180328-10d008f-win64-static\\bin\\ffmpeg.exe");
             command.add("-i");
             command.add(oldfilepath);
             command.add("-c:v");
