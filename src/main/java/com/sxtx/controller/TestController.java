@@ -1,5 +1,7 @@
 package com.sxtx.controller;
 
+import com.alibaba.fastjson.JSONObject;
+import com.sxtx.ffmpeg.ConvertVedio;
 import com.sxtx.model.User;
 import com.sxtx.redis.SxtxRedisTemplate;
 import com.sxtx.service.TestService;
@@ -66,5 +68,16 @@ public class TestController {
         int n = testService.addUser(users);
         System.out.print(n);
         return "sucecss";
+    }
+
+    /**
+     * 2018-04-02 09:03
+     * @return
+     */
+    @RequestMapping("test1")
+    @ResponseBody
+    public String TestVideo(){
+        ConvertVedio.convertVedio("C:\\Users\\Administrator\\Desktop\\dialrotation.mp4");
+        return "hahahahah";
     }
 }
