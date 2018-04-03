@@ -9,7 +9,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.3.5.RELEASE</version>
+    <version>1.5.2.RELEASE</version>
   </parent>
     <name>Test Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -28,6 +28,10 @@
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-aop</artifactId>
     </dependency>
     <!--启动时启动内置tomcat-->
     <dependency>
